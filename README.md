@@ -7,7 +7,7 @@
      - Create a Reproducible Pitch Presentation
      
  - The shiny app developed for this assignment is avalilable at https://zcuidata.shinyapps.io/project_3/
- - The source codes of ui.R and server.R and also presentation are available on ???
+ - The source codes of ui.R and server.R and also presentation are available on https://github.com/ZhenhuaCui/Final-project-of-Developing-Data-Products.git
  
 # MPG shinyapp is based on R build-in mtcars dataset. A simple linear regression model is built within the app. 
  
