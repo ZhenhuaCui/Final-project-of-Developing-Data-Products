@@ -1,0 +1,40 @@
+---
+title: "Final project of Developing Data Products"
+author: "ZC"
+date: "June 24, 2018"
+output: ioslides_presentation
+editor_options: 
+  chunk_output_type: console
+---
+
+## R Markdown
+
+- This is a presentation for the final Project of "Developing data products" couresea course
+ - This course is part of the "Data Science specialization"
+ - The project consists in two activities:
+     - Create a Shiny application
+     - Create a Reproducible Pitch Presentation
+     
+ - The shiny app developed for this assignment is avalilable at https://zcuidata.shinyapps.io/project_3/
+ - The source codes of ui.R and server.R and also presentation are available on https://github.com/ZhenhuaCui/Final-project-of-Developing-Data-Products.git
+ 
+```{r, include=FALSE}
+library(plotly)
+```
+
+## Dataset examples
+MPG shinyapp is based on R build-in mtcars dataset. A simple linear regression model is built within the app. 
+
+```{r cars, echo = TRUE}
+head(mtcars)
+```
+
+## Plot in Shiny app
+The histogram generated on the right-hand side shows the distribution of MPG of cars in the dataset. The user inputs via fluidPage on the left-hand side will be passed to the model to predict MPG, which will be displayed under the histogram.
+```{r, echo=FALSE}
+hist(mtcars$mpg, xlab = "Miles Per Gallon",xlim = c(10, 35),breaks=20, main="Histogram of MPG")
+```
+
+
+## Thank you
+Thanks for your time
